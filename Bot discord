@@ -23,10 +23,6 @@ async def add(ctx, left: int, right: int):
 async def heh(ctx, count_heh = 5):
     await ctx.send("he" * count_heh)
 
-@cool.command(name='bot')
-async def _bot(ctx):
-    """Is the bot cool?"""
-    await ctx.send('Yes, the bot is cool.')
 
 
 bot.run("TU token")
